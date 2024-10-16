@@ -1,3 +1,6 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/random%202"))()
+local One = library:Window("Gem Spawner")
+
 local desiredAmount = 25000000000
 
 One:Box("Gems =", "Type Here!", function(inputText)
